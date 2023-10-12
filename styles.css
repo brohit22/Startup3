@@ -1,0 +1,189 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px 200px;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: rgba(47, 24, 147, 1);
+}
+
+.navbar {
+  color: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav ul li {
+  margin-right: 20px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.purchase-button {
+  background-color: rgba(233, 58, 125, 1);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.purchase-button:hover {
+  background-color: #218838;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  padding: 100px 20px;
+}
+
+.left {
+  width: 50%;
+  padding: 0 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 100px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-right: 170px;
+  margin-bottom: 40px;
+}
+
+.learn-more-button {
+  background-color: rgba(233, 58, 125, 1);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: #0056b3;
+}
+
+.right {
+  max-width: 470px;
+  max-height: 600px;
+  padding: 20px 5px;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.right h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: rgba(30, 14, 98, 1);
+}
+
+.form-group input[type='email'],
+.form-group input[type='password'] {
+  width: 70%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.form-group input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+button[type='submit'] {
+  background-color: rgba(72, 43, 231, 1);
+  color: #ffffff;
+  width: 50%;
+  border: none;
+  padding: 12px 24px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button[type='submit']:hover {
+  background-color: #218838;
+}
+
+.alternative-methods button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  width: 50%;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alternative-methods button:hover {
+  background-color: #0056b3;
+}
+
+.alternative-methods p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.alternative-methods p span {
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.alternative-methods p span:hover {
+  color: #0056b3;
+}
+
+.signup {
+  margin-bottom: 30px;
+}
